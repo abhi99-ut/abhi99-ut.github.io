@@ -1,3 +1,16 @@
-theme: jekyll-theme-minimal
-title: Abhishek's homepage
-description: Bookmark this to keep an eye on my project updates!
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+title: "Abhishek Bharti"
+description: "Senior Data Scientist Portfolio"
+email: abhishek@example.com
+baseurl: ""
+url: "https://yourusername.github.io"
+theme: minima
+
+header_pages:
+  - index.md
+  - about.md
+  - blog.md
